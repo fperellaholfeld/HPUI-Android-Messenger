@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String server = "ws://127.0.0.1:80";
+        String server = "ws://192.168.1.64:80";
         String clientId = "Android_HPUI_Client";
         String topic = "Messaging";
 
@@ -60,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
         MqttConnectOptions options = new MqttConnectOptions();
         options.setCleanSession(true);
+        options.setConnectionTimeout(5);
         IMqttToken token = null;
         try {
             token = client.connect(options);
