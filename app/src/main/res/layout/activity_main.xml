@@ -15,10 +15,10 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="47dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toBottomOf="@+id/msgFrag_6"
+        app:layout_constraintBottom_toBottomOf="@+id/ring_distal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/msgFrag_3" />
+        app:layout_constraintTop_toTopOf="@+id/middle_distal" />
 
     <View
         android:id="@+id/divider4"
@@ -43,10 +43,10 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="47dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toBottomOf="@+id/msgFrag_3"
+        app:layout_constraintBottom_toBottomOf="@+id/middle_distal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/msgFrag_2" />
+        app:layout_constraintTop_toTopOf="@+id/index_proximal" />
 
     <View
         android:id="@+id/divider3"
@@ -57,10 +57,10 @@
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="32dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintBottom_toBottomOf="@+id/msgFrag_10"
+        app:layout_constraintBottom_toBottomOf="@+id/pinky_middle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/msgFrag_6" />
+        app:layout_constraintTop_toBottomOf="@+id/ring_distal" />
 
     <View
         android:id="@+id/divider8"
@@ -80,8 +80,8 @@
         android:layout_height="729dp"
         android:layout_marginEnd="40dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintEnd_toStartOf="@+id/msgFrag_4"
-        app:layout_constraintStart_toEndOf="@+id/msgFrag_3"
+        app:layout_constraintEnd_toStartOf="@+id/middle_middle"
+        app:layout_constraintStart_toEndOf="@+id/middle_distal"
         app:layout_constraintTop_toTopOf="@+id/divider4" />
 
     <View
@@ -90,12 +90,12 @@
         android:layout_height="729dp"
         android:layout_marginEnd="34dp"
         android:background="?android:attr/listDivider"
-        app:layout_constraintEnd_toStartOf="@+id/msgFrag_5"
-        app:layout_constraintStart_toEndOf="@+id/msgFrag_4"
+        app:layout_constraintEnd_toStartOf="@+id/middle_proximal"
+        app:layout_constraintStart_toEndOf="@+id/middle_middle"
         app:layout_constraintTop_toTopOf="@+id/divider4" />
 
     <TextView
-        android:id="@+id/msgFrag_0"
+        android:id="@+id/index_distal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -105,7 +105,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/msgFrag_1"
+        android:id="@+id/index_middle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
@@ -113,11 +113,11 @@
         android:layout_marginBottom="29dp"
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/divider"
-        app:layout_constraintEnd_toEndOf="@+id/msgFrag_7"
+        app:layout_constraintEnd_toEndOf="@+id/ring_middle"
         app:layout_constraintStart_toStartOf="@+id/fullMsg" />
 
     <TextView
-        android:id="@+id/msgFrag_2"
+        android:id="@+id/index_proximal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -127,7 +127,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider4" />
 
     <TextView
-        android:id="@+id/msgFrag_3"
+        android:id="@+id/middle_distal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -139,7 +139,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/msgFrag_4"
+        android:id="@+id/middle_middle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="48dp"
@@ -150,7 +150,7 @@
         app:layout_constraintStart_toEndOf="@+id/divider6" />
 
     <TextView
-        android:id="@+id/msgFrag_5"
+        android:id="@+id/middle_proximal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="40dp"
@@ -161,26 +161,26 @@
         app:layout_constraintStart_toEndOf="@+id/divider7" />
 
     <TextView
-        android:id="@+id/msgFrag_6"
+        android:id="@+id/ring_distal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginTop="54dp"
         android:text="TextView"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/msgFrag_3" />
+        app:layout_constraintTop_toBottomOf="@+id/middle_distal" />
 
     <TextView
-        android:id="@+id/msgFrag_7"
+        android:id="@+id/ring_middle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/msgFrag_10"
+        app:layout_constraintStart_toStartOf="@+id/pinky_middle"
         app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
     <TextView
-        android:id="@+id/msgFrag_8"
+        android:id="@+id/ring_proximal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -190,7 +190,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider2" />
 
     <TextView
-        android:id="@+id/msgFrag_9"
+        android:id="@+id/pinky_distal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="34dp"
@@ -200,7 +200,7 @@
         app:layout_constraintTop_toBottomOf="@+id/divider3" />
 
     <TextView
-        android:id="@+id/msgFrag_10"
+        android:id="@+id/pinky_middle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="42dp"
@@ -210,7 +210,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/msgFrag_11"
+        android:id="@+id/pinky_proximal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="11dp"
@@ -227,8 +227,8 @@
         android:layout_marginTop="152dp"
         android:layout_marginEnd="139dp"
         android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/msgFrag_2"
-        app:layout_constraintStart_toStartOf="@+id/msgFrag_6"
+        app:layout_constraintEnd_toEndOf="@+id/index_proximal"
+        app:layout_constraintStart_toStartOf="@+id/ring_distal"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
