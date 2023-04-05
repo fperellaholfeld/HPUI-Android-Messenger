@@ -24,6 +24,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HiCarInterface" android:exported="true">
+            <intent-filter>
+            <action android:name="huawei.intent.action.HICAR" />
+            <category android:name="huawei.intent.category.HICAR" />
+            </intent-filter>
+        </activity>
+        <meta-data
+        android:name="com.huawei.multidisplay.support.multidisplay"
+        android:value="true"/>
         <service android:name="org.eclipse.paho.android.service.MqttService">
         </service>
     </application>
