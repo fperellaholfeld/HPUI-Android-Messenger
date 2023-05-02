@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 put("pinky_proximal", R.id.pinky_proximal);
         }};
 
-        String server = "ws://192.168.137.1:80"; //      Change IP to match your local IPV4
+        String server = "ws://206.87.23.238:80"; //      Change IP to match your local IPV4
         String clientId = "Android_HPUI_Client";
         String topic = "hpui/#";
 
